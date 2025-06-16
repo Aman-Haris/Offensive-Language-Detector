@@ -1,4 +1,3 @@
-'''
 # 🧠 Offensive Language Detector (English + Kannada)
 
 A machine learning-powered **NLP microservice API** that detects whether a given text input is offensive or not. Supports both **English** and **Kannada** languages. This project was developed as part of a coding assessment for the ML Engineer role at **Youth India E-school**.
@@ -126,5 +125,4 @@ http://127.0.0.1:5000/detect-offensive
 
 This project is for educational and assessment purposes. Attribution to the dataset sources is required if reused.
 
-'''
 ---
