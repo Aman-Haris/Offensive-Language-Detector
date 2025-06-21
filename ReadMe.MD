@@ -89,10 +89,10 @@ The model was trained on 39,221 samples across both languages. Below are the eva
 ## 🌐 Dataset Sources
 
 * English Dataset:
-* profanity-check by vzhou842
+profanity-check by vzhou842
 
 * Kannada Dataset:
-* Hate-Alert-DravidianLangTech
+Hate-Alert-DravidianLangTech
 
 ---
 
@@ -119,8 +119,8 @@ The model was trained on 39,221 samples across both languages. Below are the eva
 
 ## 🧑‍💻 Author
 
-* Aman Haris
-* Submitted for: Youth India E-School – ML Engineer Assessment
+Aman Haris
+- Submitted for: Youth India E-School – ML Engineer Assessment
 
 ---
 
