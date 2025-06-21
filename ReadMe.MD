@@ -28,7 +28,6 @@ Detecting offensive and harmful content online is crucial for promoting safer di
 ## 🚀 How to Run
 
 ### 1. Clone the repository
-```bash
 git clone https://github.com/yourusername/offensive-language-detector.git
 cd offensive-language-detector
 2. Install requirements
@@ -41,7 +40,6 @@ Use Postman or curl:
 curl -X POST http://127.0.0.1:5000/detect-offensive \
      -H "Content-Type: application/json" \
      -d '{"text": "your input text here"}'
-'''
 
 ---
 
