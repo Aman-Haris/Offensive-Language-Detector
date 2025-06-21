@@ -28,21 +28,29 @@ Detecting offensive and harmful content online is crucial for promoting safer di
 ## 🚀 How to Run
 
 1. Clone the repository
+```
 git clone https://github.com/yourusername/offensive-language-detector.git
 cd offensive-language-detector
+```
 
 2. Install requirements
+```
 pip install -r requirements.txt
+```
 
 3. Run the API server
+```
 python api.py
+```
 
 4. Make a sample API call
 Use Postman or curl:
 
+```
 curl -X POST http://127.0.0.1:5000/detect-offensive \
      -H "Content-Type: application/json" \
      -d '{"text": "your input text here"}'
+```
 
 ---
 
@@ -64,13 +72,14 @@ Offensive-Language-Detector/
 ---
 
 ## 📈 Model Performance
+
 The model was trained on 39,221 samples across both languages. Below are the evaluation metrics:
 
 |              | precision | recall | f1-score | support |
 | ------------ | --------- | ------ | -------- | ------- |
 |           0  |     0.96  |   0.98 |     0.97 |  31237  |
 |           1  |     0.93  |   0.84 |     0.88 |    7984 |
-| ------------ | --------- | ------ | -------- | ------- |
+|              |           |        |          |         |
 |    accuracy  |           |        |     0.95 |   39221 |
 |   macro avg  |     0.95  |   0.91 |     0.93 |   39221 |
 | weighted avg |      0.95 |   0.95 |     0.95 |   39221 |	
@@ -78,40 +87,43 @@ The model was trained on 39,221 samples across both languages. Below are the eva
 ---
 
 ## 🌐 Dataset Sources
-English Dataset:
-profanity-check by vzhou842
 
-Kannada Dataset:
-Hate-Alert-DravidianLangTech
+* English Dataset:
+* profanity-check by vzhou842
+
+* Kannada Dataset:
+* Hate-Alert-DravidianLangTech
 
 ---
 
 ## 🧪 Example Inputs & Output
-Input	Output
-"You are a fool"	true
-"Have a nice day"	false
-"ನೀನು ಮೂರ್ಖ"	true
-"ನೀವು ಚೆನ್ನಾಗಿದ್ದೀರಿ"	false
+
+|       Input        |  Output  |
+| ------------------ | -------- |
+| "You are a fool"   |   true   |
+| "Have a nice day"  |   false  |
+| "ನೀನು ಮೂರ್ಖ"    |   true    |
+| "ನೀವು ಚೆನ್ನಾಗಿದ್ದೀರಿ" |   false   |
 
 ---
 
 ## 🧰 Dependencies
-Python 3.x
-Flask
-scikit-learn
-pandas
-joblib
 
-Install them via:
-pip install flask scikit-learn pandas joblib
+* Python 3.x
+* Flask
+* scikit-learn
+* pandas
+* joblib
 
 ---
 
 ## 🧑‍💻 Author
-Aman Haris
-Submitted for: Youth India E-School – ML Engineer Assessment
+
+* Aman Haris
+* Submitted for: Youth India E-School – ML Engineer Assessment
 
 ---
 
 ## 📜 License
+
 This project is distributed for academic and demonstration purposes. Please credit the author if reused or extended.
