@@ -41,6 +41,7 @@ Use Postman or curl:
 curl -X POST http://127.0.0.1:5000/detect-offensive \
      -H "Content-Type: application/json" \
      -d '{"text": "your input text here"}'
+'''
 
 ---
 
