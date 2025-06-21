@@ -27,13 +27,16 @@ Detecting offensive and harmful content online is crucial for promoting safer di
 
 ## 🚀 How to Run
 
-### 1. Clone the repository
+1. Clone the repository
 git clone https://github.com/yourusername/offensive-language-detector.git
 cd offensive-language-detector
+
 2. Install requirements
 pip install -r requirements.txt
+
 3. Run the API server
 python api.py
+
 4. Make a sample API call
 Use Postman or curl:
 
@@ -54,14 +57,20 @@ curl -X POST http://127.0.0.1:5000/detect-offensive \
 ├── /Data/                 # Dataset folder (CSV files)
 ├── ReadMe.txt             # Original brief
 └── README.md              # You're here
-📈 Model Performance
+
+---
+
+## 📈 Model Performance
 The model was trained on 39,221 samples across both languages. Below are the evaluation metrics:
 
-Metric	Class 0 (Not Offensive)	Class 1 (Offensive)
-Precision	0.96	0.93
-Recall	0.98	0.84
-F1-Score	0.97	0.88
-Accuracy	95% overall	
+|              | precision | recall | f1-score | support |
+| ------------ | --------- | ------ | -------- | ------- |
+|           0  |     0.96  |   0.98 |     0.97 |  31237  |
+|           1  |     0.93  |   0.84 |     0.88 |    7984 |
+| ------------ | --------- | ------ | -------- | ------- |
+|    accuracy  |           |        |     0.95 |   39221 |
+|   macro avg  |     0.95  |   0.91 |     0.93 |   39221 |
+| weighted avg |      0.95 |   0.95 |     0.95 |   39221 |	
 
 ---
 
