@@ -48,7 +48,9 @@ curl -X POST http://127.0.0.1:5000/detect-offensive \
 
 ## 🗂️ Project Structure
 
-.
+```
+Offensive-Language-Detector/
+│
 ├── api.py                 # Flask API for predictions
 ├── Main Program.py        # CLI version for local testing
 ├── Model Training.py      # Training script for SVM model
@@ -57,6 +59,7 @@ curl -X POST http://127.0.0.1:5000/detect-offensive \
 ├── /Data/                 # Dataset folder (CSV files)
 ├── ReadMe.txt             # Original brief
 └── README.md              # You're here
+```
 
 ---
 
